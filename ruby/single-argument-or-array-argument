@@ -1,0 +1,11 @@
+## Single arguments to array, or array
+
+You can make a function that accepts either a single argument, or an array as an argument as follows:
+
+````ruby
+def echo(words = [])
+  puts Array(words).join(" ")
+end
+````
+
+The `Array` call will convert any single argument to array, so `Array("x") == ["x"]` AND `Array(["x"]) == ["x"]`
