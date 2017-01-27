@@ -2,7 +2,7 @@ You can use `private_class_method` to make class methods private. Note that it
 is not a keyword, you have to call it for each method you want to make
 private.
 
-See [private_class_method_docs].
+See [`private_class_method` docs][private_class_method_docs].
 
 ```ruby
 # Works as expected
